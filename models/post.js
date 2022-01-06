@@ -16,6 +16,10 @@ const postSchema = new mongoose.Schema({
     dislikes: {
         type: Number,
         required: true
+    },
+    filename: {
+        type: String,
+        required: true
     }
 })
 
