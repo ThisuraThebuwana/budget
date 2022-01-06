@@ -11,11 +11,13 @@ const postSchema = new mongoose.Schema({
     },
     likes: {
         type: Number,
-        required: true
+        required: false,
+        default: 0
     },
     dislikes: {
         type: Number,
-        required: true
+        required: false,
+        default: 0
     },
     filename: {
         type: String,
